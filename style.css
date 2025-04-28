@@ -80,6 +80,7 @@ html{
     align-items: center;
     justify-content: center;
     border: none;
+    background-color: none;
 }
 
 .allBurgerMenu{
@@ -359,7 +360,6 @@ padding: 10px;
     align-items: center;
     justify-content: space-between;
    width: 100%;
-    /* margin-inline: auto; */
     padding: 20px 0;
 }
 .footer-content h4{
@@ -387,7 +387,6 @@ padding: 10px;
     max-width: 480px;
     width: 100%;
     box-sizing: border-box;
-    border: 2px solid;
 }
 .navbar{
     width: 100%;

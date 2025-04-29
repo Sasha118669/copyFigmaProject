@@ -7,6 +7,7 @@ html{
     padding: 0;
     font-family: Arial, sans-serif;
 }
+
 .header{
     margin-bottom: 30px;
 }
@@ -79,8 +80,9 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    fill: #313131;
     border: none;
-    background-color: none;
+    background-color: #ffffff;
 }
 
 .allBurgerMenu{
@@ -104,13 +106,13 @@ html{
     transition: all 0.4s ease;
   }
   #burger-toggle:checked + .burger span:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
+    transform: rotate(45deg) translate(7.5px, 5px);
   }
   #burger-toggle:checked + .burger span:nth-child(2) {
     opacity: 0;
   }
   #burger-toggle:checked + .burger span:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
+    transform: rotate(-45deg) translate(7.5px, -5px);
   }
   .menu {
     position: fixed;
@@ -481,6 +483,428 @@ padding: 10px;
     all: unset; 
     display: initial;
 }
+.most-liked-posts-list-figure{
+    all: unset; 
+    display: initial;
+}
+.most-liked-posts-list-figure figcaption{
+    text-align: center;
+    width: 100%;
+    color: #353A3D;
+    font-size: 18px;
+}
+.most-liked-posts-list-figure img{
+    all: unset; 
+    display: initial;
+    width: 300px
+}
+
+.footer-content h4{
+    max-width: 200px;
+    font-size: 8px;
+    margin-left: 15px;
+}
+.footer-logo{
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.footer-logo1{
+    width: 18px;
+}
+.footer-logo2{
+    width: 100%;
+}
+}
+@media (max-width: 680px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+.container{
+    max-width: 680px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+}
+.nav-header{
+    display: none;
+}
+.logo-header{
+    margin-left: 5px;
+    padding: 0;
+}
+.search{
+  display: none;
+}
+.phone-search{
+    display: flex;
+}
+.phone-search form{
+    width: 220px;
+}
+.phone-search input[type="text"] {
+    max-width: 290px;
+}
+
+.allBurgerMenu{
+    display: flex;
+}
+
+.head{
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+}
+.head-content h2{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.head-buttons{
+    margin-bottom: 10px;
+}
+#SubscribeNowBtn, #BestArticlesBtn{
+    font-size: 14px;
+}
+
+.parallax{
+    height: 350px;
+    margin-bottom: 30px;
+}
+.parallax-content{
+    max-width: 680px;
+}
+.parallax h2{
+    display: none;
+}
+.dopContent::after{
+    display: none;
+}
+.brands-pictures{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: fit-content;
+}
+.brands-pictures img{
+padding: 10px;
+}
+
+/* .latest-posts{
+    display: none;
+} */
+
+.most-liked-posts-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.most-liked-posts-list-pictures {
+    max-width: 680px;
+    align-items: center;
+    gap: 1.5rem;
+}
+.most-liked-posts-list h2 {
+    font-size: 27px;
+}
+.most-liked-posts-list h3 {
+    all: unset; 
+    display: initial;
+}
+.most-liked-posts-list p{
+    display: none;
+}
+ .row {
+    all: unset; 
+    display: initial;
+}
+.most-liked-posts-list-figure{
+    all: unset; 
+    display: initial;
+}
+.most-liked-posts-list-figure figcaption{
+    text-align: center;
+    width: 100%;
+    color: #353A3D;
+    font-size: 18px;
+}
+.most-liked-posts-list-figure img{
+    all: unset; 
+    display: initial;
+    width: 300px
+}
+
+.footer-content h4{
+    max-width: 200px;
+    font-size: 8px;
+    margin-left: 15px;
+}
+.footer-logo{
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.footer-logo1{
+    width: 18px;
+}
+.footer-logo2{
+    width: 100%;
+}
+}
+
+@media (max-width: 880px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+.container{
+    max-width: 880px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+}
+.nav-header{
+    display: none;
+}
+.logo-header{
+    margin-left: 5px;
+    padding: 0;
+}
+.search{
+  display: none;
+}
+.phone-search{
+    display: flex;
+}
+.phone-search form{
+    width: 320px;
+    height: 20px;
+}
+.phone-search input[type="text"] {
+    max-width: 390px;
+}
+.allBurgerMenu{
+    display: flex;
+}
+
+.head{
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+.head-content h2{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.head-buttons{
+    margin-bottom: 10px;
+}
+#SubscribeNowBtn, #BestArticlesBtn{
+    font-size: 14px;
+}
+
+.parallax{
+    height: 450px;
+    margin-bottom: 30px;
+}
+.parallax-content{
+    max-width: 880px;
+}
+.parallax h2{
+    display: none;
+}
+.dopContent::after{
+    display: none;
+}
+.brands-pictures{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: fit-content;
+}
+.brands-pictures img{
+padding: 10px;
+}
+
+/* .latest-posts{
+    display: none;
+} */
+
+.most-liked-posts-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.most-liked-posts-list-pictures {
+    max-width: 880px;
+    align-items: center;
+    gap: 1.5rem;
+}
+.most-liked-posts-list h2 {
+    font-size: 27px;
+}
+.most-liked-posts-list h3 {
+    all: unset; 
+    display: initial;
+}
+.most-liked-posts-list p{
+    display: none;
+}
+ /* .row {
+    all: unset; 
+    display: initial;
+} */
+.most-liked-posts-list-figure{
+    all: unset; 
+    display: initial;
+}
+.most-liked-posts-list-figure figcaption{
+    text-align: center;
+    width: 100%;
+    color: #353A3D;
+    font-size: 18px;
+}
+.most-liked-posts-list-figure img{
+    all: unset; 
+    display: initial;
+    width: 300px
+}
+
+.footer-content h4{
+    max-width: 200px;
+    font-size: 8px;
+    margin-left: 15px;
+}
+.footer-logo{
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.footer-logo1{
+    width: 18px;
+}
+.footer-logo2{
+    width: 100%;
+}
+}
+
+@media (max-width: 1100px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+.container{
+    max-width: 1100px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    position: relative;
+}
+.nav-header{
+    display: none;
+}
+.logo-header{
+    margin-left: 5px;
+    padding: 0;
+}
+.search{
+  display: none;
+}
+.phone-search{
+    display: flex;
+}
+.phone-search form{
+    width: 420px;
+    height: 30px;
+}
+.phone-search input[type="text"] {
+    max-width: 590px;
+}
+.allBurgerMenu{
+    display: flex;
+}
+
+.head{
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+}
+
+.parallax{
+    height: 550px;
+    margin-bottom: 30px;
+}
+.parallax-content{
+    max-width: 1100px;
+}
+.parallax h2{
+    margin-bottom: 50px;
+}
+.dopContent::after{
+    margin-top: 50px;
+}
+.brands-pictures{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    width: fit-content;
+}
+.brands-pictures img{
+padding: 10px;
+}
+
+/* .latest-posts{
+    display: none;
+} */
+
+.most-liked-posts-list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.most-liked-posts-list-pictures {
+    max-width: 1100px;
+    align-items: center;
+    gap: 1.5rem;
+}
+.most-liked-posts-list h2 {
+    font-size: 27px;
+}
+.most-liked-posts-list h3 {
+    all: unset; 
+    display: initial;
+}
+.most-liked-posts-list p{
+    display: none;
+}
+ /* .row {
+    all: unset; 
+    display: initial;
+} */
 .most-liked-posts-list-figure{
     all: unset; 
     display: initial;

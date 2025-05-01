@@ -101,7 +101,7 @@ html{
   .burger span {
     display: block;
     height: 4px;
-    background: black;
+    background: #18B4CF;
     border-radius: 2px;
     transition: all 0.4s ease;
   }
@@ -275,7 +275,7 @@ padding: 10px;
 }
 
 .most-liked-posts-list {
-    padding: 0px 20px 60px 20px;
+    padding: 0;
     width: 100%;
     background-color: #fff;
 }
@@ -363,8 +363,7 @@ padding: 10px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-   width: 100%;
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 .footer-content h4{
     color: #FFFFFF;
@@ -506,16 +505,17 @@ padding: 10px;
     width: 300px
 }
 
+.footer-content{
+    padding: 20px 10px;
+}
 .footer-content h4{
     max-width: 200px;
     font-size: 8px;
-    margin-left: 15px;
 }
 .footer-logo{
     display: flex;
     gap: 1rem;
     overflow: hidden;
-    margin-right: 15px;
 }
 .footer-logo1{
     width: 18px;
@@ -607,9 +607,9 @@ padding: 10px;
 padding: 10px;
 }
 
-/* .latest-posts{
+.latest-posts{
     display: none;
-} */
+}
 
 .most-liked-posts-list {
     margin: 0;
@@ -651,16 +651,17 @@ padding: 10px;
     width: 300px
 }
 
+.footer-content{
+    padding: 20px 10px;
+}
 .footer-content h4{
     max-width: 200px;
     font-size: 8px;
-    margin-left: 15px;
 }
 .footer-logo{
     display: flex;
     gap: 1rem;
     overflow: hidden;
-    margin-right: 15px;
 }
 .footer-logo1{
     width: 18px;
@@ -752,9 +753,9 @@ padding: 10px;
 padding: 10px;
 }
 
-/* .latest-posts{
+.latest-posts{
     display: none;
-} */
+}
 
 .most-liked-posts-list {
     margin: 0;
@@ -796,16 +797,17 @@ padding: 10px;
     width: 300px
 }
 
+.footer-content{
+    padding: 20px 10px;
+}
 .footer-content h4{
     max-width: 200px;
     font-size: 8px;
-    margin-left: 15px;
 }
 .footer-logo{
     display: flex;
     gap: 1rem;
     overflow: hidden;
-    margin-right: 15px;
 }
 .footer-logo1{
     width: 18px;
@@ -885,9 +887,9 @@ padding: 10px;
 padding: 10px;
 }
 
-/* .latest-posts{
+.latest-posts{
     display: none;
-} */
+}
 
 .most-liked-posts-list {
     margin: 0;
@@ -929,16 +931,17 @@ padding: 10px;
     width: 300px
 }
 
+.footer-content{
+    padding: 20px 10px;
+}
 .footer-content h4{
     max-width: 200px;
     font-size: 8px;
-    margin-left: 15px;
 }
 .footer-logo{
     display: flex;
     gap: 1rem;
     overflow: hidden;
-    margin-right: 15px;
 }
 .footer-logo1{
     width: 18px;
